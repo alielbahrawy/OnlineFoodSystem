@@ -1,0 +1,30 @@
+2.Project Title: Online Food Ordering System
+
+Description:
+The Online Food Ordering System is a comprehensive software application designed to facilitate the ordering and delivery of food from various restaurants. It provides a user-friendly interface for customers to browse menus, place orders, make payments, and track delivery status. Additionally, it offers restaurant owners a platform to manage their menus, track orders, and handle customer feedback.
+
+Key Features:
+
+1.User Registration and Authentication:
+Customers can create accounts.
+Update customer information 
+Remove customer from the system.
+Search for customer
+
+Menu Management:
+Restaurant owners can add, update, and remove items from their menus.
+Customers can browse through available menus, filter items, and view details such as prices and descriptions.
+
+Ordering and Payment:
+Customers can add items to their carts, customize orders, and proceed to checkout.
+Order Tracking:
+
+Customers can track the status of their orders in real-time, from preparation to delivery.
+Delivery personnel can update order statuses and provide estimated delivery times.
+
+Object-Oriented Design:
+The Online Food Ordering System is built using object-oriented programming principles, with classes representing entities such as Customer, Restaurant, Order, Payment, and Feedback. Each class encapsulates relevant data and functionality, promoting code reuse and modularity.
+
+Inheritance and polymorphism are utilized to model relationships between classes and to enable the extension of functionality without modifying existing code. For example, different payment methods can be implemented as subclasses of the Payment class.
+utilizes file storage to persistently store data, facilitating the dynamic creation and destruction of objects during runtime.
+
