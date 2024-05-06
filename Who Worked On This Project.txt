@@ -1,0 +1,26 @@
+"Akalni Shokran - Online Order System" project:
+
+We, a team of five AI Faculty students, are thrilled to present "Akalni Shokran" (Arabic for "√ﬂ·‰Ì ‘ﬂ—«"),
+an online ordering system developed from scratch using C++ and OOP fundamentals. 
+This project served as our practical exam, showcasing our understanding of these core concepts.
+
+Our team consisted of:
+
+    Leader-Mohamed Ashraf: Implemented the Customer class and integrated all system components within the main program.
+   
+    Anas Mohamed EL-Gezawy: Implemented the Owner class functionalities and assisted Mohamed in specific areas.
+
+    Eman Mohamed Hekal: Implemented the restaurant menu class, enabling menu storage in a file, and developed the order creation functionality.
+
+    Ali Fathy Ali: Implemented the Delivery and Feedback classes.
+
+    Abdelrahman Tamer: Implemented the Payment class and linked it to the Customer class for seamless transactions.
+
+While this project spanned a week across separate days due to our academic schedules,
+ the collaborative effort and dedication of each member were instrumental in its successful completion. 
+We believe "Akalni Shokran" has the potential to streamline the online ordering experience for both restaurants and customers.
+
+
+For further inquiries or project discussions, feel free to reach out to me at :
+mohammed24ashraf25ali@gmail.com.
+
