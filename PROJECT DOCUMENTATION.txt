@@ -1,0 +1,92 @@
+Online Ordering System Documentation
+
+This document outlines the functionalities and user experience of the online ordering system, including file management.
+
+System Startup
+
+Upon running the program, the user encounters a welcome message followed by a prompt to identify as either an "owner" or a "customer."
+
+User Roles
+
+The system caters to two user roles:
+
+    Owner:
+        Grants access to the Owner class, which provides functionalities for:
+            Menu Management:
+                Adding new menu items to the system. This might involve updating the resturant.txt file.
+            Customer Management (Optional):
+                Potential functionalities like viewing or modifying customer information can be implemented, but data privacy considerations should be addressed.
+
+    Customer:
+        Provides access to the Customer class, offering features like:
+            Authentication:
+                Signing in (existing customer) using credentials stored in the customerorder.txt file.
+                Signing up (new customer) to create a new account, which involves adding a new entry to the customerorder.txt file.
+            Browsing Menu:
+                The system retrieves and displays product information from the resturant.txt file.
+            Item Selection:
+                Customers choose items by their corresponding numbers listed in the resturant.txt file.
+            Quantity Selection:
+                Customers specify the desired quantity for each chosen item.
+            Ending Selection:
+                Entering "-1" signifies the completion of item selection.
+
+Order Processing
+
+    The Order class takes over after item selection.
+    It presents a well-formatted table summarizing the chosen items:
+        Item names
+        Corresponding quantities
+        Individual item prices
+        Total order price before delivery charges
+
+Payment Processing
+
+    Control transfers to the Payment class upon confirming the order.
+    The system displays the total bill amount along with available payment options (e.g., Visa, cash).
+        Visa Payment: (if implemented)
+            Requires entering a 15-digit Visa ID and a 4-digit password for verification.
+
+Delivery Processing
+
+    The Delivery class takes care of delivery selection.
+    Customers choose their delivery area, which might incur additional charges based on location.
+
+Feedback
+
+    After payment confirmation, the Feedback class (optional) allows 
+    customers to rate the system's performance and food quality on a 5-star scale.
+
+Order Completion
+
+    The system presents a prompt asking the customer to confirm the order by entering "yes" or "no."
+        "Yes":
+            The order is finalized with a unique order ID assigned.
+            A receipt is generated and displayed, containing:
+                Customer name
+                Order ID
+                Order status (confirmed)
+                Total price (including delivery charges, if applicable)
+                Date and time of order placement
+            The customer's order details are appended to the customerorder.txt file.
+            A separate file named lastcustomer.txt is updated to reflect the most recent customer's information.
+        "No":
+            The program gracefully exits, and the order is not placed.
+
+File Management
+
+The system relies on three text files for data storage:
+
+    customerorder.txt:
+        Stores all customer order history, including:
+            Customer name
+            Password (secure hashing is recommended for password storage)
+            Ordered items (names and quantities)
+    lastcustomer.txt:
+        Contains information about the most recent customer who signed in and placed an order, including:
+            Customer name
+            Most recent order details (similar to customerorder.txt)
+   resturant.txt:
+        Stores menu items, including:
+            Item names with id
+            Prices
