@@ -1,0 +1,34 @@
+HELLO our working hours are every day except for prayer times
+There is an additional amount to deliver the product varies from place to place
+*-*-*-*-*-* Menu *-*-*-*-*-*
+* Appetizers:
+1- Spring Rolls: $ 5.99
+2- Chicken Wings: $ 8.99
+3- Bruschetta: $6.49
+* Soups:
+4- Tomato Soup: $ 4.99
+5-Chicken Noodle Soup: $ 5.49
+6- Lentil Soup: $4.99
+*Salads:
+7- Caesar Salad: $ 7.99
+8- Greek Salad: $ 8.49
+9- Caprese Salad: $ 6.99
+*Main Courses:
+10-Grilled Steak with Mashed Potatoes: $ 18.99
+11-Vegetable Stir-Fry with Tofu: $ 12.99
+*Pasta:
+12-Penne Arrabbiata: $ 9.99
+13-Spaghetti Bolognese: $ 11.99
+*Pizza:
+14-Margherita Pizza: $ 12.99
+15-Vegetarian Pizza: $ 11.99
+ *Sandwiches:
+16-Philly Cheesesteak Sandwich: $ 11.49
+17-Grilled Chicken Panini: $ 10.99
+* Beverages:
+18-Coffee (Espresso, Cappuccino, Latte): $ 3.49
+19-Soft Drinks (Coke, Pepsi, Sprite): $ 2.49
+*Desserts:
+20-Chocolate Cake: $ 6.99
+21-Apple Pie: $ 5.99
+22- Tiramisu: $ 7.49
